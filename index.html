@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScreenScout - Movie Reviews</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎬 ScreenScout</h1>
+      <div class="controls">
+        <input type="text" id="searchInput" placeholder="Search movies...">
+        <select id="sortSelect">
+          <option value="trending">Trending</option>
+          <option value="rating">Highest Rated</option>
+        </select>
+        <button id="themeToggle">🌙 Dark Mode</button>
+      </div>
+    </header>
+
+    <div id="moviesContainer" class="movies-grid">
+      <p class="loading">Loading movies...</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
